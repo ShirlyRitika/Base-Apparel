@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Apparel coming soon page</title>
+     <link rel="stylesheet" href="./style.css">
+     <link rel="icon" href="./images/favicon-32x32.png">
+     
+</head>
+<body>
+    <img src="./images/logo.svg" alt="" class="base">
+    <br><br><br>
+    <img src="./images/hero-mobile.jpg" alt="" class="mobile">
+    <h1 class="soon"><span style="color: plum;">WE'RE</span><br> COMING <br>SOON</h1>
+    <p class="para">Hello fellow shoppers! We're currently building<br> our new fashion store. 
+        Add your email below to <br>stay up-to-date with announcements and our <br>launch deals.</p>
+        
+        <input type="email" name="email Address.." id="email Address" class="email" onclick="writetext()">
+        <img src="./images/icon-arrow.svg" alt="" >
+        <script>
+            function writetext(){
+                const text=document.getElementById("email Address");
+                text.value="Email Address....";
+            }
+        </script>
+    </body>
+</html>
